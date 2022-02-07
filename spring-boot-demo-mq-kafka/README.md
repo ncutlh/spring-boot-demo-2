@@ -263,3 +263,13 @@ public class SpringBootDemoMqKafkaApplicationTests {
    > - Spring Boot 2.1 users should use 2.2.x (Boot dependency management will use the correct version).
 
 2. Spring-Kafka 官方文档：https://docs.spring.io/spring-kafka/docs/2.2.0.RELEASE/reference/html/
+
+
+shift+鼠标右键
+windows用powershell
+
+.\windows\zookeeper-server-start.bat ..\config\zookeeper.properties
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+使用idea在git 上下载kafka-monitor 代码，地址：https://github.com/linxin26/kafka-monitor
+运行Start,在浏览器输入http://127.0.0.1:5050
